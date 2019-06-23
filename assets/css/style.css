@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,200i,400,400i,800,800i");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  background: no-repeat linear-gradient(135deg, #000, #333, slategray);
+  font-family: "Raleway", Helvetica, sans-serif;
+  margin: 0;
+}
+/* width and center nav */
+
+.nav-header {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 0 0 15px 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+/* header clearfix */
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav-container {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  display: inline-block;
+  height: 70px;
+  float: left;
+  padding-top: 10px;
+}
+
+.nav-brand {
+  color: white;
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+.navbar {
+  float: right;
+  margin: 0px;
+  color: white;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-left: 10px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  position: relative;
+  color: white;
+}
+
+.nav-item a {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.nav-item a:hover {
+  color: #ddd;
+}
+
+.nav-item a::before {
+  content: "";
+  background-color: #ddd;
+  display: block;
+  height: 5px;
+  width: 100%;
+  top: 0;
+  position: absolute;
+  width: 0%;
+  transition: all ease-out 250ms;
+}
+
+.nav-item a:hover::before {
+  width: 100%;
+}
+/* Hero Section */
+.hero {
+  min-height: 60vh;
+}
+
+.main-title {
+  font-size: 3rem;
+  text-align: center;
+  transition: letter-spacing 150ms ease-out;
+  margin: 0 auto;
+  padding: 100px 0 1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main-title:hover {
+  letter-spacing: 2px;
+}
+
+.main-title span {
+  color: rgba(153, 0, 153, 0.5);
+}
+
+.hero article {
+  padding: 6rem 5rem;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  color: #bbb;
+}
+
+.team-container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.section-title {
+  font-size: 3rem;
+  margin: 0 auto 7rem;
+  padding-top: 4rem;
+  text-align: center;
+  color: #ddd;
+}
+
+.team {
+  padding-bottom: 100px;
+  margin: 0 auto;
+}
+
+/* Cards */
+
+.card-container-left {
+  display: inline-block;
+  padding-bottom: 7rem;
+  float: left;
+  clear: both;
+}
+
+.card-container-right {
+  display: inline-block;
+  padding-bottom: 7rem;
+  float: right;
+  clear: both;
+}
+
+.card {
+  width: 550px;
+  max-width: 600px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 150ms ease-in;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: 60px 40px;
+  flex: 2;
+  background-color: #eee;
+}
+
+.card-title {
+  font-weight: 800;
+  color: #444;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: limegreen;
+  margin-bottom: 30px;
+}
+
+.card-description {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  color: #111;
+}
+
+.card-img-1,
+.card-img-2,
+.card-img-3,
+.card-img-4,
+.card-img-5,
+.card-img-6 {
+  height: 100%;
+  max-height: 350px;
+}
+
+.card-img-1 {
+  background: 40% / cover no-repeat url("../img/brewmaster.jpeg");
+}
+
+.card-img-2 {
+  background: center/cover no-repeat
+    url("https://metaco.gg/wp-content/uploads/2016/11/panduan-hero-dota-2-viper-featured-new.jpg");
+}
+
+.card-img-3 {
+  background: 40% / cover no-repeat
+    url("https://itemdota.files.wordpress.com/2016/11/download-dota-2-phantom-assassin-wallpaper.jpg");
+}
+
+.card-img-4 {
+  background: 35% / cover no-repeat
+    url("https://i.ytimg.com/vi/3-h2gT_ny7M/maxresdefault.jpg");
+}
+
+.card-img-5 {
+  background: 60% / cover no-repeat
+    url("https://i.pinimg.com/originals/7b/49/fd/7b49fdaa3df4fddf3801a2aecddf1271.jpg");
+}
+
+.card-img-6 {
+  background: 25% / cover no-repeat url("../img/shadow-shaman.jpg");
+}
+
+.card-img-container {
+  height: inherit;
+  overflow: hidden;
+  flex: 2;
+}
+
+.social-media {
+  clear: both;
+  height: 500px;
+}
+
+.social-media ul {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.social-media ul li {
+  display: inline-block;
+  font-size: 5em;
+  flex: 1;
+}
+
+i {
+  color: #fff;
+  transition: transform 150ms ease-out;
+}
+
+i:hover {
+  color: #ddd;
+  transform: translateY(-5px);
+}
+
+.social-media a:link,
+.social-media a:visited {
+  /* color: red; */
+}
+
+footer {
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #333;
+  text-align: center;
+  padding: 1.5em;
+}
+
+footer a:link,
+footer a:visited {
+  color: black;
+}
+
+@media screen and (min-width: 415px) {
+  .main-title {
+    font-size: 4rem;
+  }
+}

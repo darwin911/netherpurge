@@ -1,0 +1,49 @@
+1) INFO:
+
+-TEAM ID: 5271052
+-TEAM RANK: -CALIBRATING-
+-COUNTRY: DOMINICAN REPUBLIC
+-TEAM TAG: (NP)
+-CONTACT: -EMAIL-
+-HISTORY:
+	Group of friends that have been gaming since Warcraft 3, thanks to BLIZZARD. We discovered DOTA through custom game lobbies in the game and have been hooked ever since.
+
+2) ROSTER:
+
+-Sylethron:
+	YoB: 1992
+	Role: Utility
+	Top Heroes: Tiny, Brewmaster, Elder Titan
+-Noxx:
+	YoB: 1991
+	Role: Carry, Tank
+	Top Heroes: Viper, Bristleback, Lifestealer
+-TheDude:
+	YoB: 1991
+	Role: Carry, Support
+	Top Heroes: Phantom Assasin, Vengeful Spirit, Pudge
+-SavvyWolf:
+	YoB: 1994
+	Role: Utility
+	Top Heroes: Centaur Warrunner, Lina, Witch Doctor
+-Lord_Horokeu:
+	YoB: 1990
+	Role: Support, Carry
+	Top Heroes: Ogre Magi, Juggernaut, Phantom Lancer
+-ShApE ShiFTeR:
+	YoB: 1986
+	Role: Support, Tank
+	Top Heroes: Shadow Shaman, Earthshaker, Dragon Knight
+
+3) MEDIA:
+	links
+
+4) EVENTS:
+
+-THE INTERNATIONAL 2018:
+	0 MATHCES / 0 WINS / 0 LOSSES
+-BATTLE CUP 2018:
+	0 MATHCES / 0 WINS / 0 LOSSES
+
+
+	
