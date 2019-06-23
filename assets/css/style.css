@@ -168,8 +168,8 @@ header::after {
   display: flex;
   border-radius: 10px;
   overflow: hidden;
-  transition: opacity 300ms ease-in, transform 350ms ease-in;
-  transform: translateY(100px), scaleX(0.5);
+  transition: opacity 300ms ease-in, transform 350ms ease-in-out;
+  transform: translateY(100px);
 }
 
 .card:first-child {

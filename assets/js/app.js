@@ -1,9 +1,8 @@
-const card = document.querySelector(".card");
 const cards = document.querySelectorAll(".card");
-
+console.log("app");
 const options = {
   root: null,
-  threshold: 1,
+  threshold: 0.25,
   rootMargin: "0px"
 };
 
