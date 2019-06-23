@@ -302,3 +302,14 @@ footer a:visited {
     display: block;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .team {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 150px;
+  }
+  .team-container {
+    max-width: 1200px;
+  }
+}
