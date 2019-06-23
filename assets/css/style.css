@@ -14,7 +14,6 @@ body {
   font-family: "Raleway", Helvetica, sans-serif;
   margin: 0;
 }
-/* width and center nav */
 
 .nav-header {
   background-color: rgba(0, 0, 0, 0.5);
@@ -61,6 +60,7 @@ header::after {
   float: right;
   margin: 0px;
   color: white;
+  display: none;
 }
 
 .nav-item {
@@ -168,7 +168,12 @@ header::after {
   display: flex;
   border-radius: 10px;
   overflow: hidden;
-  transition: transform 150ms ease-in;
+  transition: opacity 300ms ease-in, transform 350ms ease-in;
+  transform: translateY(100px), scaleX(0.5);
+}
+
+.card:first-child {
+  opacity: 0;
 }
 
 .card:hover {
@@ -279,6 +284,11 @@ i:hover {
   /* color: red; */
 }
 
+.card.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 footer {
   font-family: Helvetica;
   font-size: 2rem;
@@ -296,5 +306,8 @@ footer a:visited {
 @media screen and (min-width: 415px) {
   .main-title {
     font-size: 4rem;
+  }
+  .navbar {
+    display: block;
   }
 }
