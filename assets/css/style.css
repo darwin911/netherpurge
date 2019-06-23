@@ -120,7 +120,7 @@ header::after {
 }
 
 .hero article {
-  padding: 6rem 5rem;
+  padding: 3rem;
   font-size: 1.25rem;
   letter-spacing: 1px;
   line-height: 1.6;
@@ -129,13 +129,13 @@ header::after {
 
 .team-container {
   margin: 0 auto;
-  width: 80%;
+  width: 95%;
+  max-width: 800px;
 }
 
 .section-title {
   font-size: 3rem;
   margin: 0 auto 7rem;
-  padding-top: 4rem;
   text-align: center;
   color: #ddd;
 }
@@ -147,33 +147,18 @@ header::after {
 
 /* Cards */
 
-.card-container-left {
-  display: inline-block;
-  padding-bottom: 7rem;
-  float: left;
-  clear: both;
-}
-
-.card-container-right {
-  display: inline-block;
-  padding-bottom: 7rem;
-  float: right;
-  clear: both;
-}
-
 .card {
-  width: 550px;
   max-width: 600px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   display: flex;
-  border-radius: 10px;
+  border-radius: 6px;
   overflow: hidden;
   transition: opacity 300ms ease-in, transform 350ms ease-in-out;
-  transform: translateY(100px);
-}
-
-.card:first-child {
   opacity: 0;
+  transform: translateY(100px);
+  width: 100%;
+  height: 300px;
+  margin: 0 auto 10rem;
 }
 
 .card:hover {
@@ -182,6 +167,7 @@ header::after {
 
 .card-content {
   padding: 60px 40px;
+  padding: 2rem;
   flex: 2;
   background-color: #eee;
 }
@@ -204,6 +190,7 @@ header::after {
 
 .card-description {
   font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.4;
   color: #111;
 }
@@ -249,12 +236,13 @@ header::after {
 .card-img-container {
   height: inherit;
   overflow: hidden;
-  flex: 2;
+  flex: 3;
+  width: 100%;
 }
 
 .social-media {
   clear: both;
-  height: 500px;
+  margin-bottom: 3rem;
 }
 
 .social-media ul {
@@ -265,7 +253,7 @@ header::after {
 
 .social-media ul li {
   display: inline-block;
-  font-size: 5em;
+  font-size: 3.5em;
   flex: 1;
 }
 
@@ -290,17 +278,20 @@ i:hover {
 }
 
 footer {
+  background: #222;
+  color: #ccc;
   font-family: Helvetica;
-  font-size: 2rem;
-  font-weight: bolder;
-  color: #333;
   text-align: center;
-  padding: 1.5em;
+  padding: 3.5rem 1.5rem 1.5rem;
+}
+
+footer p {
+  font-weight: 100;
 }
 
 footer a:link,
 footer a:visited {
-  color: black;
+  color: #999;
 }
 
 @media screen and (min-width: 415px) {
